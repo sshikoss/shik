@@ -94,6 +94,7 @@ svg {
 
 .list {
   list-style: none;
+  padding: 0 20rem 0 5rem;
 }
 
 a {
