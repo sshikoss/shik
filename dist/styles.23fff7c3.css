@@ -1,0 +1,284 @@
+html {
+  font-size: 6.25%;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-size: 16rem;
+  box-sizing: border-box;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+}
+
+h1,
+h2 {
+  color: #fff;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+ul {
+  margin: 0;
+}
+
+/*collapsible*/
+.collapsible__content {
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+}
+.collapsible--expanded .collapsible__content {
+  max-height: 100vh;
+  opacity: 1;
+  position: fixed;
+  z-index: 1;
+  top: 100px;
+  left: 0;
+  background: #000;
+  transition: 0.5s;
+}
+
+@media screen and (min-width: 768px) {
+  .collapsible--expanded .collapsible__content {
+    max-height: 100vh;
+    opacity: 1;
+    position: inherit;
+    z-index: 1;
+    top: 0;
+    right: -20px;
+  }
+}
+
+/*navbar*/
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+  background: black;
+  color: white;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav__brand {
+  width: 50px;
+}
+.nav__logo {
+  width: 150px;
+  padding: 20px;
+}
+
+svg {
+  fill: white;
+}
+
+.icon {
+  height: 60px;
+  width: 60px;
+}
+
+.nav__list {
+  width: 100%;
+  margin: 0;
+}
+.nav__list a {
+  color: rgb(189, 189, 189);
+  transition: color 0.6s ease;
+}
+
+.nav__list a:hover {
+  color: rgb(250, 150, 0);
+}
+
+.nav__toggler {
+  padding: 20rem;
+}
+
+.list {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.nav__item {
+  border-bottom: 1px solid rgb(114, 114, 114);
+  padding: 20rem;
+  font-size: 30rem;
+}
+
+.nav__item:last-of-type {
+  border: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .nav__item {
+    border: 0;
+    font-size: 18rem;
+  }
+  .nav__list {
+    display: flex;
+    max-height: 100%;
+    width: auto;
+    margin: 10rem 30rem 10rem 0;
+    opacity: 1;
+  }
+  .nav__toggler {
+    display: none;
+  }
+}
+
+/* Blocks */
+.block__about {
+margin-bottom: 40rem;
+}
+.block--dark {
+  background: #000;
+  color: #7b858b;
+}
+
+.block--dark .block__heading {
+  color: #fff;
+}
+
+.block--skewed-left {
+  clip-path: polygon(0% 0%, 100% 0%, 100% 90%, 0% 100%);
+}
+.block--skewed-right {
+  padding-bottom: 40rem;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 90%);
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+.container_about {
+  max-width: 1240px;
+  margin: 0 auto;
+}
+/*grid*/
+.grid {
+  display: grid;
+}
+
+@media screen and (min-width: 768px) {
+  .grid--1x2 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+/*hero*/
+.hero__content {
+  margin: 0 20rem;
+  text-align: center;
+}
+.hero__image {
+  width: 100%;
+  position: relative;
+  top: 50px;
+}
+
+.hero__title {
+  font-size: 50rem;
+  margin-bottom: 0;
+}
+.hero__tagline {
+  font-size: 25rem;
+  margin-bottom: 60rem;
+}
+
+.btn {
+  background: #ff6900;
+  color: #fff;
+  border-radius: 50px;
+  padding: 20rem 80rem;
+  transition: all 0.6s;
+
+}
+.btn:hover {
+  border-radius: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .hero__content {
+    text-align: left;
+  }
+  .hero__title {
+    font-size: 60rem;
+  }
+}
+
+.about__heading {
+  background: linear-gradient(
+    90deg,
+    rgba(213, 49, 113, 1) 0%,
+    rgba(255, 226, 0, 1) 100%
+  );
+  text-align: center;
+  font-size: 50rem;
+  margin-top: 0px;
+}
+
+.about__image {
+  width: 100%;
+}
+
+.icon {
+  fill: #7b858b;
+}
+
+.media__title {
+  color: #7b858b;
+  font-size: 23rem;
+  margin: 0;
+}
+.media__body {
+  margin: 0 2rem;
+}
+.media {
+  display: flex;
+  margin-bottom: 4rem;
+}
+
+.media__image {
+  padding-right: 20rem;
+}
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: rgb(66, 66, 66);
+  color: white;
+  cursor: pointer;
+  border-radius: 4px;
+  width: 50px;
+  height: 50px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
+
+.Philip {
+  transform: translateX(-37px);
+}
+
+.army__tagline {
+  margin: 0 20rem 35rem 20rem;
+  font-size: 20rem;
+}
+
+.hero__content_army {
+  margin: 50rem 0 0 20rem;
+}
+.army__heading {
+  margin: 0 20rem 10rem 20rem;
+}
+
+
+/*# sourceMappingURL=/styles.23fff7c3.css.map */
