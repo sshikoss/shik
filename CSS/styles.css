@@ -224,12 +224,7 @@ a {
 
 .icon {
   fill: #7b858b;
-  display: none;
-}
-@media screen and (min-width: 768px) {
-  .icon {
-    display: inherit;
-  }
+  width: 40px;
 }
 
 .media__title {
