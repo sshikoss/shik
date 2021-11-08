@@ -1,0 +1,17 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 256" width="400" height="256">
+	<title>template</title>
+	<style>
+		tspan { white-space:pre }
+		.txt0 { font-size: 93px;fill: #ffffff;font-weight: 600;font-family: "Mukta-SemiBold", "Mukta" } 
+		.shp1 { fill: #d53171 } 
+		.shp2 { fill: #ff7300 } 
+		.shp3 { fill: #00c2ff } 
+	</style>
+	<text id="SHIK" style="transform: matrix(1,0,0,1,127,165)" >
+		<tspan x="-94.907" y="0" class="txt0">S</tspan><tspan  y="0" class="txt0">H</tspan><tspan  y="0" class="txt0">I</tspan><tspan  y="0" class="txt0">K
+</tspan>
+	</text>
+	<path id="צורה 2" class="shp1" d="M255 167C247.81 167 242 161.19 242 154C242 146.81 247.81 141 255 141C262.19 141 268 146.81 268 154C268 161.19 262.19 167 255 167Z" />
+	<path id="צורה 2 copy" class="shp2" d="M300.5 154C289.72 154 281 145.28 281 134.5C281 123.72 289.72 115 300.5 115C311.28 115 320 123.72 320 134.5C320 145.28 311.28 154 300.5 154Z" />
+	<path id="צורה 2 copy 2" class="shp3" d="M356.5 140C341.85 140 330 128.15 330 113.5C330 98.85 341.85 87 356.5 87C371.15 87 383 98.85 383 113.5C383 128.15 371.15 140 356.5 140Z" />
+</svg>
