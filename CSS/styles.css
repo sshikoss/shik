@@ -70,11 +70,6 @@ svg {
   fill: white;
 }
 
-.icon {
-  height: 60px;
-  width: 60px;
-}
-
 .nav__list {
   width: 100%;
   margin: 0;
@@ -90,6 +85,8 @@ svg {
 
 .nav__toggler {
   padding: 20rem;
+  height: 60px;
+  width: 60px;
 }
 
 .list {
@@ -224,9 +221,12 @@ a {
 
 .icon {
   fill: #7b858b;
-  width: 40px;
 }
 
+.icon--primary {
+  width: 40px;
+  height: 40px;
+}
 .media__title {
   color: #7b858b;
   font-size: 23rem;
