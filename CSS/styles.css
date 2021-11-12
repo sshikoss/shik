@@ -96,11 +96,12 @@ svg {
 
 a {
   text-decoration: none;
+  display: block;
+  padding: 20rem;
 }
 
 .nav__item {
   border-bottom: 1px solid rgb(114, 114, 114);
-  padding: 20rem;
   font-size: 30rem;
 }
 
@@ -279,4 +280,27 @@ a {
 }
 .army__heading {
   margin: 0 20rem 10rem 20rem;
+}
+
+#moree {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  #moree {
+    display: inline;
+  }
+  #btn--read-more {
+    display: none;
+  }
+}
+
+#btn--read-more {
+  background: #9c9c9c;
+  color: #fff;
+  padding: 10rem;
+  border-radius: 30px;
+  border: 0;
+  margin: 10px 0 ;
+  cursor: pointer;
 }
