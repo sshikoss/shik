@@ -96,7 +96,6 @@ svg {
 
 a {
   text-decoration: none;
-  display: block;
   padding: 20rem;
 }
 
@@ -107,6 +106,10 @@ a {
 
 .nav__item:last-of-type {
   border: 0;
+}
+
+.nav__a {
+  display: block;
 }
 
 @media screen and (min-width: 768px) {
@@ -301,6 +304,6 @@ a {
   padding: 10rem;
   border-radius: 30px;
   border: 0;
-  margin: 10px 0 ;
+  margin: 10px 0;
   cursor: pointer;
 }
