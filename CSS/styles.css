@@ -93,10 +93,10 @@ svg {
 
 .list {
   list-style: none;
-  padding: 0 5rem 0 10rem;
+  padding: 0;
 }
 
-a {
+.nav__list a {
   text-decoration: none;
   padding: 20rem;
 }
@@ -125,7 +125,6 @@ a {
     width: auto;
     margin: 10rem 30rem 10rem 0;
     opacity: 1;
-
   }
 
   .nav__list a {
@@ -205,14 +204,24 @@ a {
   z-index: 0;
   border-radius: 10px;
   padding: 20rem 80rem;
-
 }
 .btn:before {
-  content: '';
-  background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+  content: "";
+  background: linear-gradient(
+    45deg,
+    #ff0000,
+    #ff7300,
+    #fffb00,
+    #48ff00,
+    #00ffd5,
+    #002bff,
+    #7a00ff,
+    #ff00c8,
+    #ff0000
+  );
   position: absolute;
   top: -2px;
-  left:-2px;
+  left: -2px;
   background-size: 400%;
   z-index: -1;
   filter: blur(5px);
@@ -220,22 +229,25 @@ a {
   height: calc(100% + 4px);
   animation: glowing 20s linear infinite;
   opacity: 14;
-  transition: opacity .3s ease-in-out;
+  transition: opacity 0.3s ease-in-out;
   border-radius: 10px;
 }
 
 .btn:hover {
-  background: rgb(39, 39, 39) ;
+  background: rgb(39, 39, 39);
 }
 
 @keyframes glowing {
-  0% { background-position: 0 0; }
-  50% { background-position: 400% 0; }
-  100% { background-position: 0 0; }
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 400% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
 }
-
-
-
 
 @media screen and (min-width: 768px) {
   .hero__content {
