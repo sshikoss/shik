@@ -2,6 +2,7 @@ html {
   font-size: 6.25%;
   scroll-behavior: smooth;
   -webkit-text-size-adjust: none;
+  touch-action: manipulation;
 }
 
 body {
