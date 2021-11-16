@@ -22,6 +22,12 @@ h2 {
 ul {
   margin: 0;
 }
+svg {
+  fill: white;
+}
+a {
+text-decoration: none;
+}
 
 /*collapsible*/
 .collapsible__content {
@@ -66,10 +72,6 @@ ul {
 .nav__logo {
   width: 150px;
   padding: 20px;
-}
-
-svg {
-  fill: white;
 }
 
 .nav__list {
