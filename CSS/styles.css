@@ -307,3 +307,25 @@ a {
   margin: 10px 0;
   cursor: pointer;
 }
+
+
+/*scroll*/
+/* width */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: rgb(122, 122, 122) 0%; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #ff6900; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(213, 136, 49) 0%; 
+}

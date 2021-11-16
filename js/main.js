@@ -35,11 +35,13 @@ function myFunction() {
 
   if (dots.style.display === "none") {
     dots.style.display = "inline";
-    btnText.innerHTML = "Read more about Philip Morris"; 
+    btnText.innerHTML = "Read more about Philip Morris";
     moreText.style.display = "none";
   } else {
     dots.style.display = "none";
-    btnText.innerHTML = "Read less about Philip Morris"; 
+    btnText.innerHTML = "Read less about Philip Morris";
     moreText.style.display = "inline";
   }
 }
+
+console.log(dots.style.display === "none");
