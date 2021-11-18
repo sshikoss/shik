@@ -358,7 +358,6 @@ a {
   position: relative;
 }
 
-
 /*scroll*/
 /* width */
 ::-webkit-scrollbar {
@@ -372,7 +371,7 @@ a {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #ff6900;
+  background: rgb(213, 136, 49) 0%;
 }
 
 /* Handle on hover */
@@ -380,14 +379,11 @@ a {
   background: rgb(213, 136, 49) 0%;
 }
 
-
-
 .progress-bar {
   height: 8px;
-  background:  rgb(213, 136, 49) 0%;
+  background: rgb(213, 136, 49) 0%;
   width: 0%;
   position: fixed;
   z-index: 1;
   top: 0;
-
 }
