@@ -34,14 +34,16 @@ function myFunction() {
   var moreText = document.getElementById("moree");
   var btnText = document.getElementById("btn--read-more");
 
+
   if (dots.style.display === "none") {
     dots.style.display = "inline";
-    btnText.innerHTML = "Read more about Philip Morris &rbarr;";
+    btnText.innerHTML = "Read More";
     moreText.style.display = "none";
   } else {
     dots.style.display = "none";
-    btnText.innerHTML = "Read less &lbarr;";
+    btnText.innerHTML = "Read Less";
     moreText.style.display = "inline";
+
   }
 }
 
