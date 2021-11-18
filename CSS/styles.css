@@ -348,11 +348,11 @@ a {
 }
 
 #btn--read-more {
-  background: #9c9c9c;
-  color: #fff;
+  background: transparent;
+  border: 1px solid #757575;
+  color: rgb(75, 75, 75);
   padding: 10rem;
-  border-radius: 30px;
-  border: 0;
+  border-radius: 15px;
   margin: 10px 0;
   cursor: pointer;
 }
